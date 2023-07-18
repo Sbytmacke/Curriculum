@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#left-container {
+  width: 30%;
+  height: 80vh;
+  background-color: black;
+  margin: 1%;
+  text-align: center;
+}
+
+#right-container {
+  width: 70%;
+  height: 80vh;
+  background-color: black;
+  margin: 1%;
+}
+
+#main-container {
+  display: flex;
+}
+
+#navigation {
+  text-align: center;
+  background-color: rgb(150, 20, 30);
+}
+
+#navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#navigation li {
+  display: inline;
+}
+
+#navigation li a {
+  display: inline-block;
+  padding: 1vw;
+  text-decoration: none;
+}
+
+.text-standar {
+  color: white;
+}
+
+#rrss {
+  background-color: blueviolet;
+}
