@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: auto;
+  background-image: url("../../assets/image/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#angel-chibi {
+  object-fit: cover; /* Evita que la imagen se estire */
+
+  position: absolute;
+  top: -25%; /* Ajusta la cantidad de sobresalimiento */
+  transform: translateX(-50%);
+  width: 100%;
+  height: 50vh;
+}
+
+#left-container {
+  border-radius: 1.5em;
+  position: relative;
+
+  transform: translateY(26%);
+
+  width: 30%;
+  height: 80vh;
+  background-color: #070b13;
+  margin: 1%;
+  text-align: center;
+}
+/*#55acbe*/
+#inside-left-container {
+  transform: translateY(70%);
+}
+
+#right-container {
+  width: 70%;
+  height: 87.5vh;
+  margin: 1%;
+
+  height: 100%; /* Deja un espacio al final abajo ni zorra por que*/
+}
+
+#main-container {
+  display: flex;
+}
+
+#navigation {
+  text-align: center;
+  background-color: #070b13;
+  border-radius: 1.5em;
+  height: 17vh;
+  margin-bottom: 1.75%;
+
+  width: 70%;
+  padding-top: 1%;
+
+  transform: translateX(20%);
+}
+
+#navigation ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+#navigation li {
+  display: inline-flex; /* Cambiamos a inline-flex para alinear horizontalmente */
+  align-items: center; /* Centra verticalmente el contenido */
+  margin: 0 7%; /* Añadimos margen horizontal para separar los elementos */
+}
+
+.inside-container-navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 1.5vw; /* Ajusta el padding horizontal */
+  margin-top: 10%;
+}
+
+.inside-container-navigation:hover {
+  border-radius: 1em;
+  background-color: #55acbe;
+  transform: scale(1.05); /* Aumenta el tamaño en un 10% */
+}
+
+.navigation-icon {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-bottom: 20%;
+}
+
+#dinamic-playground {
+  background-color: #070b13;
+  border-radius: 1.5em;
+  width: 100%;
+  height: 100vh;
+}
+
+.text-standar {
+  font-size: 1.25vw;
+  font-family: "Calibri";
+  color: white;
+  text-decoration: none;
+}
+
+.text-title {
+  color: white;
+  font-size: 2vw;
+  font-family: "Calibri";
+  font-weight: bold;
+  margin-bottom: 1%;
+}
+
+.text-grey {
+  color: #92969e;
+  margin-bottom: 5%;
+}
+
+.button-download-cv:active {
+  background-color: #0db783;
+}
+
+.button-download-cv:hover {
+  transform: scale(1.05); /* Aumenta el tamaño en un 10% */
+}
+
+.button-download-cv {
+  padding: 3% 6%;
+
+  background-color: #55acbe;
+  border-radius: 0.5em;
+  border: none;
+  margin-top: 2.5%;
+
+  transition: background-color 0.05s ease; /* Transición suave para los estilos de hover */
+
+  cursor: pointer;
+}
+
+.text-button {
+  font-size: 1.5vw;
+  font-family: "Calibri";
+  color: white;
+  text-decoration: none;
+}
+
+#container-rrss {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.link-rrss {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+  padding: 1vh 1vw; /* Ajusta el padding horizontal */
+  margin: 5%;
+}
+
+.link-rrss:hover {
+  border-radius: 1em;
+  background-color: #55acbe;
+}
+
+.icon-standar {
+  width: 50px;
+  height: 50px;
+}
+
+#icon-email {
+  background-color: #55acbe;
+  border-radius: 100%;
+  width: 25px;
+  height: 25px;
+  padding: 17%;
+}
+
+#table-email {
+  margin: 2%;
+  margin-left: 22%;
+}
+
+#limit-rrss {
+  margin: 4%;
+}
+
+#email {
+  margin-left: 10%;
+}
