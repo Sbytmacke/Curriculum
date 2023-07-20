@@ -11,6 +11,10 @@ body {
   background-position: center;
 }
 
+#main-container {
+  display: flex;
+}
+
 .button-download-cv:active {
   background-color: #0db783;
 }
