@@ -6,30 +6,35 @@
     <title>Angel Maroto Chivite</title>
 
     <!-- Reset CSS -->
-    <link rel="stylesheet" href="node_modules/normalize.css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="../../node_modules/normalize.css/normalize.css"
+    />
     <!-- CSS principal -->
-    <link rel="stylesheet" href="src/css/style.css" />
+    <link rel="stylesheet" href="../css/style.css" />
     <!-- CSS mobile -->
-    <link rel="stylesheet" href="src/css/style-mobile.css" />
+    <link rel="stylesheet" href="../css/style-mobile.css" />
     <!-- CSS medium -->
-    <link rel="stylesheet" href="src/css/style-medium.css" />
+    <link rel="stylesheet" href="../css/style-medium.css" />
     <!-- CSS large -->
-    <link rel="stylesheet" href="src/css/style-large.css" />
+    <link rel="stylesheet" href="../css/style-large.css" />
 
-    <script src="/src/js/events.js"></script>
+    <script src="../js/events.js"></script>
   </head>
   <body>
     <div id="main-container">
       <div id="left-container">
-        <img id="angel-chibi" src="assets/image/angel-chibi.png" />
+        <img id="angel-chibi" src="../../assets/image/angel-chibi.png" />
         <div id="inside-left-container">
           <p class="text-title" id="name">Angel Maroto Chivite</p>
           <p class="text-grey" id="degree">Software Backend Developer</p>
-
           <ul id="container-rrss">
             <li>
               <a class="link-rrss" href="https://github.com/Sbytmacke">
-                <img class="icon-standar" src="assets/icons/white/github.png" />
+                <img
+                  class="icon-standar"
+                  src="../../assets/icons/white/github.png"
+                />
               </a>
             </li>
             <li>
@@ -39,7 +44,7 @@
               >
                 <img
                   class="icon-standar"
-                  src="assets/icons/white/linkedin.png"
+                  src="../../assets/icons/white/linkedin.png"
                 />
               </a>
             </li>
@@ -50,7 +55,7 @@
               <td>
                 <img
                   id="icon-email"
-                  src="assets/icons/white/email.png"
+                  src="../../assets/icons/white/email.png"
                   alt="sbytmacke@gmail.com"
                 />
               </td>
@@ -64,7 +69,7 @@
           <a
             class="button-download-cv text-button"
             id="download-button"
-            href="assets/pdf/prueba.pdf"
+            href="../../assets/pdf/prueba.pdf"
             download
           >
             Download CV
@@ -76,27 +81,22 @@
         <nav id="navigation">
           <ul>
             <li>
-              <a
-                id="button-to-hover"
-                class="inside-container-navigation"
-                href="#"
-              >
+              <a class="inside-container-navigation" href="../../index.html">
                 <span
                   class="navigation-icon"
-                  style="background-image: url('assets/icons/white/home.png')"
+                  style="
+                    background-image: url('../../assets/icons/white/home.png');
+                  "
                 ></span>
                 <p class="text-standar">Home</p>
               </a>
             </li>
             <li>
-              <a
-                class="inside-container-navigation"
-                href="/src/pages/projects.html"
-              >
+              <a class="inside-container-navigation" href="projects.html">
                 <span
                   class="navigation-icon"
                   style="
-                    background-image: url('assets/icons/white/projects.png');
+                    background-image: url('../../assets/icons/white/projects.png');
                   "
                 ></span>
                 <p class="text-standar">Projects</p>
@@ -105,12 +105,13 @@
             <li>
               <a
                 class="inside-container-navigation"
-                href="/src/pages/contact.html"
+                id="button-to-hover"
+                href="#"
               >
                 <span
                   class="navigation-icon"
                   style="
-                    background-image: url('assets/icons/white/contact.png');
+                    background-image: url('../../assets/icons/white/contact.png');
                   "
                 ></span>
                 <p class="text-standar">Contact</p>
