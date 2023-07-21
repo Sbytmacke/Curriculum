@@ -1,4 +1,9 @@
 @media (max-width: 767px) {
+  html,
+  body {
+    height: auto;
+  }
+
   #main-container {
     flex-direction: column;
   }
@@ -160,6 +165,7 @@
 
     background-color: #070b13;
     border-radius: 1.5em;
+    margin-bottom: 5%;
   }
 
   /* POR FAVOR NO UTILIZAR, "gap", es horrible desajusta el tamaño de los items internos*/

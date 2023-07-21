@@ -1,10 +1,4 @@
 @media (min-width: 768px) {
-  #right-container {
-    width: 70%;
-    margin: 1%;
-    margin-right: 2%;
-  }
-
   /* Navigation */
   #navigation {
     text-align: center;
@@ -70,7 +64,6 @@
   }
 
   /* RR.SS */
-
   #left-container-upper {
     border-radius: 1.5em;
     width: 30%;
@@ -81,13 +74,11 @@
     text-align: center;
 
     height: 60%;
-    background-color: #d12d13;
   }
 
   #simulate-top-rrss {
     height: 8.9em;
     margin-bottom: 7.5%;
-    background-color: #55acbe;
   }
 
   #left-container {
@@ -191,47 +182,100 @@
     text-decoration: none;
   }
 
-  /* Cuadrícula de proyectos */
+  /* Right-Container */
+  #right-container {
+    width: 70%;
+    margin: 1%;
+    margin-right: 3%;
+  }
+
   #dinamic-playground {
     background-color: #070b13;
     border-radius: 1.5em;
     width: 100%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .content {
-    position: relative;
-    overflow: hidden; /* Recorta el contenido que se desborda */
-  }
-
-  .container-image-project {
-    width: 100%;
     height: 100%;
-    position: relative;
-    display: flex; /* Centra el contenido de forma horizontal y vertical */
-    align-items: center; /* Centra verticalmente */
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.25fr 1fr;
   }
 
-  .container-image-project img {
-    position: absolute;
-    top: 13%; /* Alinea el texto verticalmente en el centro */
-    left: 10%; /* Alinea el texto horizontalmente en el centro */
-    width: 80%;
-    height: 70%;
-    object-fit: cover; /* Ajusta la imagen para no estirarla*/
-    border-radius: 1.5em;
-    opacity: 0.8;
+  /* Contenedor sobre mí */
+  #container-about-me {
+    text-align: center;
   }
 
-  .text-project {
-    position: absolute;
-    top: 7%; /* Alinea el texto verticalmente en el centro */
-    left: 50%; /* Alinea el texto horizontalmente en el centro */
-    transform: translate(-50%, -50%); /* Centra el texto*/
-    z-index: 1; /* Coloca el texto por encima de la imagen */
-    font-size: 135%;
-    font-weight: bold;
+  .text-h1 {
+    color: white;
+    padding-left: 4%;
+    font-size: 2.5vw;
+    margin-bottom: 3%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+  .text-h3 {
+    padding-left: 4%;
+    color: white;
+    font-size: 1.25vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 300;
+  }
+
+  #container-about-me .text-standar {
+    font-size: 1.5vw;
+    font-family: "Calibri";
+    padding-left: 4%;
+    margin-top: 4%;
+  }
+
+  #container-languages {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* Contenedor de conocimientos*/
+  .text-h2 {
+    color: white;
+    font-size: 2.25vw;
+    font-weight: 300;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 5%;
+    margin-top: 6%;
+    grid-column: span 2; /* Hace que el elemento ocupe dos columnas */
+  }
+
+  hr {
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  #container-knowledges {
+    display: grid;
+    grid-template-columns: repeat(2, 0.35fr); /* Dos columnas de tamaño igual */
+    grid-template-rows: 0.25fr 0.25fr 0.25fr; /* La primera fila es la mitad de tamaño*/
+    justify-content: center;
+    text-align: center;
+    margin-bottom: -15%;
+  }
+
+  .container-knowledge {
+    padding-bottom: 20%;
+    margin-right: 4%;
+  }
+
+  #container-knowledges .text-standar {
+    margin-bottom: 10%;
+    color: #92969e;
+    text-align: center;
+  }
+
+  .icons-knowledge {
+  }
+
+  .icon-knowledge {
+    width: 20%;
+    height: 20%;
+    margin: 2%;
   }
 }
