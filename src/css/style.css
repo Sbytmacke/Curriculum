@@ -1,19 +1,116 @@
-* {
-  margin: 0;
-  padding: 0;
+/* Textos */
+.text-white-small {
+  font-size: 1.25vw;
+  font-family: "Calibri";
+  color: white;
+  text-decoration: none;
 }
 
-html,
-body {
-  background-image: url("../../assets/image/bg.jpg");
-  background-size: cover;
+.text-grey-small {
+  color: #92969e;
+  font-size: 1.25vw;
+  margin: 2%;
+}
+
+.text-white-big {
+  color: white;
+  font-size: 2vw;
+  font-family: "Calibri";
+  font-weight: bold;
+  /*margin-bottom: 2%;
+  margin-top: 2%;*/
+}
+
+.text-white-small-clean {
+  color: white;
+  font-size: 1.55vw;
+  font-weight: 500;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.text-white-medium-clean {
+  color: white;
+  font-size: 1.75vw;
+  font-weight: 250;
+  font-family: "Calibri";
+}
+
+.text-white-big-clean {
+  color: white;
+  font-size: 2.25vw;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icon-standar {
+  width: 3.5em;
+  height: 3.5em;
+
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  height: 120%;
 }
 
-#main-container {
+/* Navigation */
+.container-navigation-button:hover {
+  border-radius: 1em;
+  background-color: #55acbe;
+  transform: scale(1.05); /* Aumenta el tamaño en un 10% */
+}
+
+.container-navigation-button.always-hover {
+  background-color: #55acbe;
+  border-radius: 1em;
+}
+
+/* RRSS*/
+#container-links-rrss {
   display: flex;
+  justify-content: center;
+  list-style: none;
+  margin: 5%;
+}
+
+.button-link-rrss {
+  display: flex;
+  text-decoration: none;
+  padding: 0.65vh 0.9vw;
+}
+
+.button-link-rrss:hover {
+  border-radius: 1em;
+  background-color: #55acbe;
+}
+
+#container-email {
+  display: flex;
+  align-items: center;
+  width: min-content;
+}
+
+#icon-email {
+  background-color: #55acbe;
+  border-radius: 100%;
+  width: 1.5em;
+  height: 1.5em;
+  padding: 1%;
+  margin-right: 2%;
+}
+
+/* Button download cv*/
+#button-download-cv {
+  padding: 3% 6%;
+  background-color: #55acbe;
+  border-radius: 0.5em;
+  border: none;
+  margin-top: 5%;
+  transition: background-color 0.05s ease;
+  cursor: pointer;
+  color: white;
+
+  text-decoration: none;
+  font-size: 2vw;
+  font-family: "Calibri";
 }
 
 .button-download-cv:active {
@@ -24,25 +121,199 @@ body {
   transform: scale(1.05); /* Aumenta el tamaño en un 10% */
 }
 
-.link-rrss:hover {
-  border-radius: 1em;
-  background-color: #55acbe;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.inside-container-navigation:hover {
-  border-radius: 1em;
-  background-color: #55acbe;
-  transform: scale(1.05); /* Aumenta el tamaño en un 10% */
+body {
+  background-image: url("../../assets/image/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-/* Estilos específicos para la página "projects.html" */
-.inside-container-navigation.always-hover {
-  background-color: #55acbe;
-  border-radius: 1em;
+/* Mobile screen */
+@media (max-width: 767px) {
+  body {
+    display: grid;
+    place-items: center;
+    margin-bottom: 6%;
+  }
+
+  /* Navigation */
+  #container-navigation {
+    text-align: center;
+    background-color: #070b13;
+    border-radius: 1.5em;
+    width: min-content;
+    padding: 4%;
+
+    /* Disposicion de los botones internos*/
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+  }
+
+  .container-navigation-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 2vw;
+  }
+
+  .navigation-icon {
+    width: 3em;
+    height: 3em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20%;
+  }
+
+  /* RR.SS*/
+  #container-rrss {
+    display: flex;
+    list-style: none;
+    grid-row: 1; /* Movemos a la fila 1*/
+  }
+
+  #container-inside-rrss {
+    border-radius: 1.5em;
+    width: 90%;
+    background-color: #070b13;
+    margin: 5% auto;
+    text-align: center;
+    padding-bottom: 10%;
+  }
+
+  #angel-chibi {
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: -8%;
+    margin-left: 2.5%;
+    margin-top: -9.5%;
+  }
+
+  .text-white-big {
+    font-size: 6.5vw;
+  }
+
+  .text-grey-small {
+    font-size: 4vw;
+  }
+
+  #container-links-rrss {
+    gap: 5%;
+  }
+
+  #container-email {
+    margin-left: 28%;
+  }
+
+  .text-white-small {
+    font-size: 3.5vw;
+  }
+
+  #limit-rrss {
+    margin: 4%;
+    margin-bottom: 8%;
+  }
+
+  #button-download-cv {
+    font-size: 4vw;
+  }
 }
 
-/* Estilos para HOME*/
-.icon-knowledge {
-  width: 3em;
-  height: 3em;
+/* Larger screen */
+@media (min-width: 768px) {
+  body {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 1%;
+    margin-bottom: 10%;
+
+    /* GRID general */
+    display: grid;
+    grid-template-rows: 0.1fr 1fr;
+    grid-template-columns: 0.5fr 1fr;
+  }
+
+  /* Navigation */
+  #container-navigation {
+    text-align: center;
+    background-color: #070b13;
+    border-radius: 1.5em;
+    padding: 1%;
+    margin-bottom: 0.5%;
+    margin-left: 37%;
+    margin-right: 37%;
+    grid-column: span 2; /* Hace que el elemento ocupe dos columnas */
+    height: 60%;
+    transform: translateX(61%);
+    /* Disposicion de los botones internos*/
+    display: flex;
+    justify-content: center;
+  }
+
+  .container-navigation-button {
+    /* Disposicion de los iconos y textos internos*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 6%;
+    margin: 1.5%;
+  }
+
+  .icon-standar {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  /* RR.SS */
+  #container-rrss {
+    background-color: #070b13;
+    border-radius: 1.5em;
+    margin-left: 10%;
+    margin-right: 1.5%;
+    padding: 0 2%;
+    width: 80%;
+    text-align: center;
+    height: min-content;
+  }
+
+  #container-inside-rrss {
+    transform: translateY(-20%);
+    margin-bottom: -20%; /* Tengo que recuperar el 20% translateY */
+  }
+
+  #angel-chibi {
+    object-fit: cover;
+    width: 100%; /* Ocupa todo el ancho de la celda */
+    margin-left: 3%;
+    margin-bottom: -10%;
+  }
+
+  #container-email {
+    margin-left: 20%;
+  }
+
+  #text-email {
+    margin-left: 3%;
+  }
+
+  #limit-rrss {
+    margin: 4%;
+    margin-bottom: 10%;
+  }
+
+  /* Articles */
+  #container-articles {
+    background-color: #070b13;
+    border-radius: 1.5em;
+    width: 90%;
+    margin-left: 3%;
+    height: min-content;
+  }
 }

@@ -1,0 +1,10 @@
+@media (min-width: 768px) {
+  /* Estilo diferenciador de articles*/
+  #container-articles {
+    background-color: #070b13;
+    border-radius: 1.5em;
+    width: 90%;
+    margin-left: 3%;
+    height: min-content;
+  }
+}

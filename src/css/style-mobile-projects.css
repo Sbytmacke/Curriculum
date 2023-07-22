@@ -1,0 +1,38 @@
+@media (max-width: 767px) {
+  /* Articles */
+  #container-articles {
+    background-color: #070b13;
+    border-radius: 1.5em;
+    margin-top: 5%;
+  }
+
+  #container-articles {
+    display: flex; /* Usamos flexbox para alinear los elementos en una columna */
+    flex-direction: column; /* Para alinear */
+    padding-left: 8%;
+    padding-right: 8%;
+  }
+
+  .container-project {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alineamos los elementos (texto e imagen) en el centro horizontal */
+    margin-bottom: 2rem; /* Un margen inferior entre cada proyecto */
+  }
+
+  .text-white-medium-clean {
+    font-size: 1.5rem; /* Tamaño del texto relativo al tamaño de fuente base */
+    margin: 1rem 0; /* Margen superior e inferior del texto */
+    font-weight: 500;
+    opacity: 0.9;
+  }
+
+  .image-project {
+    width: 100%; /* La imagen ocupará el 100% del ancho disponible dentro del contenedor */
+    height: 12.5rem; /* Para mantener la proporción de la imagen */
+    object-fit: cover;
+    max-width: 21rem; /* Establecemos un ancho máximo para evitar que las imágenes se agranden */
+    opacity: 0.8;
+    border-radius: 1.5rem;
+  }
+}

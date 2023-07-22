@@ -1,8 +1,25 @@
-@media (min-width: 768px) {
+@media (max-width: 767px) {
+  /* Articles */
+  #container-articles {
+    background-color: #070b13;
+    border-radius: 1.5em;
+    width: 90%;
+    height: min-content;
+    margin-top: 5%;
+  }
+
   /* Contenedor sobre mí */
   #container-about-me {
     text-align: center;
     display: inline;
+  }
+
+  .text-white-big-clean {
+    font-size: 7vw;
+  }
+
+  .text-white-medium-clean {
+    font-size: 4vw;
   }
 
   #container-languages {
@@ -13,12 +30,12 @@
 
   #container-languages .text-white-small-clean {
     margin: 1.5%;
+    font-size: 3.25vw;
   }
 
   /* Contenedor de conocimientos*/
   #container-knowledges {
     display: grid;
-    grid-template-columns: repeat(2, 0.35fr); /* Dos columnas de tamaño igual */
     grid-template-rows: 0.25fr 0.25fr;
     justify-content: center;
     text-align: center;
@@ -26,23 +43,21 @@
 
   #container-knowledges .text-white-big-clean {
     color: white;
-    font-size: 2.25vw;
+
     font-weight: 300;
 
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 5%;
-    margin-top: 4%;
-    grid-column: span 2; /* Hace que el elemento ocupe dos columnas */
+    margin-top: 9%;
   }
 
   hr {
-    margin-top: 2%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin: 4%;
+    margin-bottom: 1.5%;
   }
 
   .container-knowledge {
-    padding-bottom: 20%;
+    padding-bottom: 10%;
     margin-right: 4%;
   }
 
@@ -51,8 +66,8 @@
   }
 
   .icon-knowledge {
-    width: 20%;
-    height: 20%;
+    width: 15%;
+    height: 15%;
     margin: 2%;
   }
 }

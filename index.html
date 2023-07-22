@@ -10,193 +10,171 @@
     <!-- CSS principal -->
     <link rel="stylesheet" href="src/css/style.css" />
     <!-- CSS mobile -->
-    <link rel="stylesheet" href="src/css/style-mobile.css" />
+    <link rel="stylesheet" href="src/css/style-mobile-home.css" />
     <!-- CSS large -->
     <link rel="stylesheet" href="src/css/style-large-home.css" />
 
     <script src="src/js/events.js"></script>
   </head>
   <body>
-    <div id="main-container">
-      <div id="left-container-upper">
-        <p id="simulate-top-rrss"></p>
-        <div id="left-container">
-          <img id="angel-chibi" src="assets/image/angel-chibi.png" />
-          <div id="inside-left-container">
-            <p class="text-title" id="name">Angel Maroto Chivite</p>
-            <p class="text-grey" id="degree">Software Backend Developer</p>
+    <nav id="container-navigation">
+      <a
+        id="button-to-hover"
+        class="container-navigation-button"
+        href="index.html"
+      >
+        <span
+          class="icon-standar"
+          style="background-image: url('assets/icons/white/home.png')"
+        ></span>
+        <p class="text-white-small">Home</p>
+      </a>
 
-            <ul id="container-rrss">
-              <li>
-                <a class="link-rrss" href="https://github.com/Sbytmacke">
-                  <img
-                    class="icon-standar"
-                    src="assets/icons/white/github.png"
-                  />
-                </a>
-              </li>
-              <li>
-                <a
-                  class="link-rrss"
-                  href="https://www.linkedin.com/in/angel-chivite-14b0a0162/"
-                >
-                  <img
-                    class="icon-standar"
-                    src="assets/icons/white/linkedin.png"
-                  />
-                </a>
-              </li>
-            </ul>
+      <a class="container-navigation-button" href="src/pages/projects.html">
+        <span
+          class="icon-standar"
+          style="background-image: url('assets/icons/white/projects.png')"
+        ></span>
+        <p class="text-white-small">Projects</p>
+      </a>
 
-            <table id="table-email">
-              <tr>
-                <td>
-                  <img
-                    id="icon-email"
-                    src="assets/icons/white/email.png"
-                    alt="sbytmacke@gmail.com"
-                  />
-                </td>
-                <td>
-                  <p id="email" class="text-standar">sbytmacke@gmail.com</p>
-                </td>
-              </tr>
-            </table>
+      <a class="container-navigation-button" href="src/pages/contact.html">
+        <span
+          class="icon-standar"
+          style="background-image: url('assets/icons/white/contact.png')"
+        ></span>
+        <p class="text-white-small">Contact</p>
+      </a>
+    </nav>
 
-            <hr id="limit-rrss" />
-            <a
-              class="button-download-cv text-button"
-              id="download-button"
-              href="assets/pdf/prueba.pdf"
-              download
-            >
-              Download CV
+    <div id="container-rrss">
+      <div id="container-inside-rrss">
+        <img
+          id="angel-chibi"
+          src="assets/image/angel-chibi.png"
+          alt="angel-chibi"
+        />
+        <p class="text-white-big" id="name">Angel Maroto Chivite</p>
+        <p class="text-grey-small" id="degree">Software Backend Developer</p>
+
+        <ul id="container-links-rrss">
+          <li>
+            <a class="button-link-rrss" href="https://github.com/Sbytmacke">
+              <img
+                class="icon-standar"
+                src="assets/icons/white/github.png"
+                alt="github"
+              />
             </a>
-          </div>
+          </li>
+          <li>
+            <a
+              class="button-link-rrss"
+              href="https://www.linkedin.com/in/angel-chivite-14b0a0162/"
+            >
+              <img
+                class="icon-standar"
+                src="assets/icons/white/linkedin.png"
+                alt="linkedin"
+              />
+            </a>
+          </li>
+        </ul>
+
+        <div id="container-email">
+          <img
+            id="icon-email"
+            src="assets/icons/white/email.png"
+            alt="sbytmacke@gmail.com"
+          />
+          <p id="text-email" class="text-white-small">sbytmacke@gmail.com</p>
+        </div>
+
+        <hr id="limit-rrss" />
+        <a id="button-download-cv" href="assets/pdf/prueba.pdf" download>
+          Download CV
+        </a>
+      </div>
+    </div>
+
+    <div id="container-articles">
+      <div id="container-about-me">
+        <h1 class="text-white-big-clean">Hi 🙂, I'm Angel</h1>
+        <h3 class="text-white-medium-clean">
+          Ready to tackle any challenge with passion and determination!
+        </h3>
+        <div id="container-languages">
+          <p class="text-white-small-clean">🇪🇸 Native</p>
+          <p class="text-white-small-clean">🇺🇸 Intermediate</p>
+          <p class="text-white-small-clean">🇷🇺 Basic</p>
+          <p class="text-white-small-clean">🇩🇪 Basic</p>
         </div>
       </div>
 
-      <div id="right-container">
-        <nav id="navigation">
-          <ul>
-            <li>
-              <a
-                id="button-to-hover"
-                class="inside-container-navigation"
-                href="#"
-              >
-                <span
-                  class="navigation-icon"
-                  style="background-image: url('assets/icons/white/home.png')"
-                ></span>
-                <p class="text-standar">Home</p>
-              </a>
-            </li>
-            <li>
-              <a
-                class="inside-container-navigation"
-                href="src/pages/projects.html"
-              >
-                <span
-                  class="navigation-icon"
-                  style="
-                    background-image: url('assets/icons/white/projects.png');
-                  "
-                ></span>
-                <p class="text-standar">Projects</p>
-              </a>
-            </li>
-            <li>
-              <a
-                class="inside-container-navigation"
-                href="src/pages/contact.html"
-              >
-                <span
-                  class="navigation-icon"
-                  style="
-                    background-image: url('assets/icons/white/contact.png');
-                  "
-                ></span>
-                <p class="text-standar">Contact</p>
-              </a>
-            </li>
-          </ul>
-        </nav>
-        <div id="dinamic-playground">
-          <div id="container-about-me">
-            <h1 class="text-h1">Hi 🙂, I'm Angel</h1>
-            <h3 class="text-h3">
-              Ready to tackle any challenge with passion and determination!
-            </h3>
-            <div id="container-languages">
-              <p class="text-standar">🇪🇸 Native</p>
-              <p class="text-standar">🇺🇸 Intermediate</p>
-              <p class="text-standar">🇷🇺 Basic</p>
-              <p class="text-standar">🇩🇪 Basic</p>
-            </div>
+      <div id="container-knowledges">
+        <h2 class="text-white-big-clean">
+          Knowledges
+          <hr />
+        </h2>
+        <div class="container-knowledge">
+          <h2 class="text-white-small">Programming</h2>
+          <div class="icons-knowledge">
+            <img
+              class="icon-knowledge"
+              src="assets/icons/technologies/java.svg"
+              alt="java"
+            />
+            <img
+              class="icon-knowledge"
+              src="assets/icons/technologies/kotlin.svg"
+              alt="kotlin"
+            />
+
+            <img
+              class="icon-knowledge"
+              src="assets/icons/technologies/js.png"
+              alt="js"
+            />
           </div>
-
-          <div id="container-knowledges">
-            <h2 class="text-h2">
-              Knowledges
-              <hr />
-            </h2>
-            <div class="container-knowledge">
-              <h2 class="text-standar">Programming</h2>
-              <div class="icons-knowledge">
-                <img
-                  class="icon-knowledge"
-                  src="assets/icons/technologies/java.svg"
-                  alt="java"
-                />
-                <img
-                  class="icon-knowledge"
-                  src="assets/icons/technologies/kotlin.svg"
-                  alt="kotlin"
-                />
-
-                <img
-                  class="icon-knowledge"
-                  src="assets/icons/technologies/js.png"
-                  alt="js"
-                />
-              </div>
-            </div>
-            <div class="container-knowledge">
-              <h2 class="text-standar">Data Base</h2>
-              <div class="icons-knowledge">
-                <img
-                  class="icon-knowledge"
-                  src="assets/icons/technologies/mysql.svg"
-                  alt="mysql"
-                />
-              </div>
-            </div>
-            <div class="container-knowledge">
-              <h2 class="text-standar">Tools</h2>
-              <div class="icons-knowledge">
-                <img
-                  class="icon-knowledge"
-                  src="assets/icons/technologies/git.svg"
-                  alt="git"
-                />
-                <img
-                  class="icon-knowledge"
-                  src="assets/icons/technologies/css.svg"
-                  alt="css"
-                />
-
-                <img
-                  class="icon-knowledge"
-                  src="assets/icons/technologies/html.svg"
-                  alt="html"
-                />
-              </div>
-            </div>
-            <div class="container-knowledge">
-              <h2 class="text-standar">Frameworks</h2>
-              <div class="icons-knowledge">A</div>
-            </div>
+        </div>
+        <div class="container-knowledge">
+          <h2 class="text-white-small">Data Base</h2>
+          <div class="icons-knowledge">
+            <img
+              class="icon-knowledge"
+              src="assets/icons/technologies/mariadb.png"
+              alt="mariadb"
+            />
+            <img
+              class="icon-knowledge"
+              src="assets/icons/technologies/mysql.svg"
+              alt="mysql"
+            />
+          </div>
+        </div>
+        <div class="container-knowledge">
+          <h2 class="text-white-small">Tools</h2>
+          <div class="icons-knowledge">
+            <img
+              class="icon-knowledge"
+              src="assets/icons/technologies/git.svg"
+              alt="git"
+            />
+            <img
+              class="icon-knowledge"
+              src="assets/icons/technologies/docker.png"
+              alt="docker"
+            />
+          </div>
+        </div>
+        <div class="container-knowledge">
+          <h2 class="text-white-small">Frameworks</h2>
+          <div class="icons-knowledge">
+            <img
+              class="icon-knowledge"
+              src="assets/icons/technologies/react.png"
+              alt="react"
+            />
           </div>
         </div>
       </div>
