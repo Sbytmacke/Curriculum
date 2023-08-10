@@ -68,6 +68,10 @@
     margin-top: 3%;
   }
 
+  .title-name {
+    font-family: "Zilla Slab", serif;
+  }
+
   #container-inside-rrss {
     transform: translateY(-20%);
     margin-bottom: -20%; /* Tengo que recuperar el 20% translateY */
@@ -82,10 +86,14 @@
 
   #container-email {
     margin-left: 20%;
+    text-decoration: none;
   }
 
   #text-email {
     margin-left: 3%;
+    font-family: "Russo One", sans-serif;
+    color: #a9a6a6;
+    font-size: 1.15vw;
   }
 
   #limit-rrss {
@@ -156,7 +164,6 @@
   #button-download-cv:hover {
     background-color: #2797ad2c;
     transform: scale(1.05); /* Aumenta el tamaño en un 10% */
-
     color: #2797ad;
   }
 }

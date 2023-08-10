@@ -6,7 +6,7 @@ const SocialMedia = () => {
     <div id="container-rrss">
       <div id="container-inside-rrss">
         <img id="angel-chibi" src={images.angelChibi} alt="angel-chibi" />
-        <h2 className="text-white-big" id="name">
+        <h2 className="title-name" id="name">
           Angel Maroto Chivite
         </h2>
         <p className="text-grey-small" id="degree">
@@ -37,16 +37,16 @@ const SocialMedia = () => {
           </li>
         </ul>
 
-        <div id="container-email">
+        <a href="mailto:tucorreo@example.com" id="container-email">
           <img
             id="icon-email"
             src={icons.whiteEmail}
             alt="sbytmacke@gmail.com"
           />
-          <p id="text-email" className="text-white-small">
+          <p id="text-email" className="">
             sbytmacke@gmail.com
           </p>
-        </div>
+        </a>
 
         <hr id="limit-rrss" />
         <a id="button-download-cv" href="assets/pdf/prueba.pdf" download>

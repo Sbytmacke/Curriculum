@@ -1,10 +1,26 @@
 #full-container-contact {
   background-color: #070b13;
   border-radius: 1.5em;
+  margin-top: -2%;
+  margin-bottom: 7%;
+  padding-top: 1.5%;
+  padding-bottom: 4%;
+  width: 50%;
 }
 
 .line-contact {
   margin-top: -2%;
   margin-left: 40%;
   margin-right: 40%;
+}
+
+.container-contact {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.contact-item {
+  padding: 2%;
 }

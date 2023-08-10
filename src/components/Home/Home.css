@@ -5,7 +5,6 @@
     border-radius: 1.5em;
     height: min-content;
     width: 67%;
-    margin-right: 2%;
   }
 
   .container-about-me {
@@ -13,6 +12,10 @@
     display: inline;
   }
 
+  .title-about-me {
+    font-size: 2.75vw;
+    font-family: "Zilla Slab", serif;
+  }
   .container-languages {
     display: flex;
     justify-content: center;
@@ -38,9 +41,8 @@
   }
 
   .title-knowledges {
-    font-size: 2.25vw;
-    font-weight: 300;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.75vw;
+    font-family: "Zilla Slab", serif;
     margin-bottom: 5%;
     margin-top: 4%;
     grid-column: span 2; /* Hace que el elemento ocupe dos columnas */

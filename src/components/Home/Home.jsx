@@ -7,7 +7,7 @@ function Home() {
     <>
       <section className="container-home" id="container-home">
         <div className="container-about-me">
-          <h1 id="navigate-to-home" className="text-white-big-clean">
+          <h1 id="navigate-to-home" className="title-about-me">
             Hi 🙂, I`m Angel
           </h1>
           <p className="text-about-me">

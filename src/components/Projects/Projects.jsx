@@ -3,41 +3,41 @@ import * as images from "./../../assets/image/index"; // Importa las imágenes q
 
 const projectsList = [
   {
-    title: "Desktop App ITV",
+    title: "Web ITV",
     image: images.webITV,
     description: "Descripción del proyecto 1",
+    link: "https://github.com/Sbytmacke/ProyectoFinalITV",
   },
   {
-    title: "Project 2",
-    image: images.background,
-    description: "Descripción del proyecto 2",
-  },
-  {
-    title: "Project 2",
-    image: images.angelFace,
-    description: "Descripción del proyecto 2",
-  },
-  {
-    title: "Project 2",
+    title: "App Desktop ITV",
     image: images.appITV,
-    description: "Descripción del proyecto 2",
+    description: "Descripción del proyecto 4",
+    link: "https://github.com/Sbytmacke/ProyectoFinalITV",
   },
   {
-    title: "Project 2",
-    image: images.bg,
-    description: "Descripción del proyecto 2",
-  },
-  {
-    title: "Project 2",
+    title: "Coming Soon...",
     image: images.comingSoon,
     description: "Descripción del proyecto 2",
+    link: "",
   },
   {
-    title: "Project 2",
-    image: images.referenceCV,
+    title: "Coming Soon...",
+    image: images.comingSoon,
     description: "Descripción del proyecto 2",
+    link: "",
   },
-  // Agregamos más proyectos aquí
+  {
+    title: "Coming Soon...",
+    image: images.comingSoon,
+    description: "Descripción del proyecto 2",
+    link: "",
+  },
+  {
+    title: "Coming Soon...",
+    image: images.comingSoon,
+    description: "Descripción del proyecto 2",
+    link: "",
+  },
 ];
 
 function Projects() {
@@ -49,13 +49,14 @@ function Projects() {
       <section id="container-projects">
         {projectsList.map((project, index) => (
           <div className="container-project" key={index}>
-            <p className="text-white-medium-clean">{project.title}</p>
-            <img
-              className="image-project"
-              src={`${project.image}`}
-              alt={`project-${index}`}
-            />
-            {/*<p>{project.description}</p>*/}
+            <a href={project.link} className="link-project">
+              <p className="title-project">{project.title}</p>
+              <img
+                className="image-project"
+                src={project.image}
+                alt={`project-${index}`}
+              />
+            </a>
           </div>
         ))}
       </section>
