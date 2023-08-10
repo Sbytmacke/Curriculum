@@ -46,7 +46,7 @@
     grid-column: span 2; /* Hace que el elemento ocupe dos columnas */
   }
 
-  hr {
+  .line-knowledge {
     margin-top: 2%;
     margin-left: 25%;
     margin-right: 25%;

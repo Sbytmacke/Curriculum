@@ -1,3 +1,5 @@
+import "./Projects.css";
+
 const projectsList = [
   {
     title: "Desktop App ITV",
@@ -39,10 +41,11 @@ const projectsList = [
 
 function Projects() {
   return (
-    <>
+    <div id="full-container-project">
       <span id="navigate-to-projects"></span>
-      <section className="container-projects" id="container-projects">
-        <h1>Projects</h1>
+      <h1 className="title-clean">Projects</h1>
+      <hr className="line-projects" />
+      <section id="container-projects">
         {projectsList.map((project, index) => (
           <div className="container-project" key={index}>
             <p className="text-white-medium-clean">{project.title}</p>
@@ -55,7 +58,7 @@ function Projects() {
           </div>
         ))}
       </section>
-    </>
+    </div>
   );
 }
 

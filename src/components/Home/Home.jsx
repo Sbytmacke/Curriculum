@@ -11,7 +11,9 @@ function Home() {
             Hi 🙂, I`m Angel
           </h1>
           <p className="text-about-me">
-            Perseverance, patience, and mainly a good vibes :)
+            <span className="text-highlight">Perseverance</span>,
+            <span className="text-highlight"> patience</span>, and mainly a good
+            vibes :)
           </p>
           <p className="text-about-me">
             Loving the world of the backend and how huge it can be!
@@ -27,7 +29,7 @@ function Home() {
         <div className="container-knowledges">
           <h1 className="title-knowledges">
             Knowledges
-            <hr />
+            <hr className="line-knowledge" />
           </h1>
           <div className="container-knowledge">
             <p className="text-white-small">Programming</p>

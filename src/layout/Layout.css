@@ -10,5 +10,9 @@
 }
 
 .bottom-content {
-  background-color: rgb(182, 40, 40);
+  text-align: center;
+  width: 80%;
+  margin-top: -26%;
+
+  height: min-content;
 }

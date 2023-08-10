@@ -12,9 +12,7 @@ function Navigation() {
     <nav className="container-navigation">
       <Link
         to="#navigate-to-home"
-        className={`container-navigation-button ${
-          window.location.hash === "#navigate-to-home" ? "active" : ""
-        }`}
+        className="container-navigation-button"
         smooth
       >
         <img src={homeIcon} alt="Home" />
@@ -22,9 +20,7 @@ function Navigation() {
       </Link>
       <Link
         to="#navigate-to-projects"
-        className={`container-navigation-button ${
-          window.location.hash === "#navigate-to-projects" ? "active" : ""
-        }`}
+        className="container-navigation-button"
         smooth
       >
         <img src={projectsIcon} alt="Projects" />
@@ -32,9 +28,7 @@ function Navigation() {
       </Link>
       <Link
         to="#navigate-to-contact"
-        className={`container-navigation-button ${
-          window.location.hash === "#navigate-to-contact" ? "active" : ""
-        }`}
+        className="container-navigation-button"
         smooth
       >
         <img src={contactIcon} alt="Contact" />

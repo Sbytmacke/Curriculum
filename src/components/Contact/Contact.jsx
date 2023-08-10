@@ -1,11 +1,12 @@
+import "./Contact.css";
 function Contact() {
   return (
-    <>
+    <div id="full-container-contact">
       <span id="navigate-to-contact"></span>
-      <section className="container-contact">
-        <h1>Contact</h1>
-      </section>
-    </>
+      <h1>Contact</h1>
+      <hr className="line-contact" />
+      <section className="container-contact"></section>
+    </div>
   );
 }
 
