@@ -19,7 +19,7 @@
   display: flex;
   justify-content: center; /*right*/
   background-color: #070b13;
-  padding: 0.75em 2em;
+  padding: 0.25em 2em;
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -43,7 +43,6 @@
 .container-navigation-button img {
   width: 80%;
   height: 80%;
-  filter: brightness(0) invert(1);
 }
 
 .container-navigation-button p {
