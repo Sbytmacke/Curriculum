@@ -1,0 +1,84 @@
+.container-navigation-button:hover {
+  border-radius: 1em;
+  background-color: #55acbe;
+  transform: scale(1.05); /* Aumenta el tamaño en un 10% */
+}
+
+.container-navigation-button.always-hover {
+  background-color: #55acbe;
+  border-radius: 1em;
+}
+
+/* Mobile screen */
+@media (max-width: 767px) {
+  .container-navigation {
+    text-align: center;
+    background-color: #070b13;
+    border-radius: 1.5em;
+    width: min-content;
+    padding: 4%;
+
+    /* Disposicion de los botones internos*/
+    display: flex;
+    justify-content: center;
+    gap: 3%;
+  }
+
+  .container-navigation-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 2vw;
+  }
+
+  .navigation-icon {
+    width: 3em;
+    height: 3em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 20%;
+  }
+}
+
+/* Larger screen */
+@media (min-width: 768px) {
+  .container-navigation {
+    width: 25%;
+    text-align: center;
+    background-color: #070b13;
+    border-radius: 1.5em;
+    padding: 1%;
+    margin-bottom: 0.5%;
+    margin-left: 37%;
+    margin-right: 37%;
+    grid-column: span 2; /* Hace que el elemento ocupe dos columnas */
+    transform: translateX(61%);
+    /* Disposicion de los botones internos*/
+    display: flex;
+    justify-content: center;
+
+    /* Prueba*/
+    position: fixed;
+    top: 3%;
+    left: 0;
+    z-index: 1000; /* Valor alto para asegurarse de que esté por encima de otros elementos */
+    /* Otros estilos que desees agregar */
+  }
+
+  .container-navigation-button {
+    /* Disposicion de los iconos y textos internos*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 6%;
+    margin: 1.5%;
+  }
+
+  .icon-standar {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+}
