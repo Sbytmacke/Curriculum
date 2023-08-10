@@ -38,6 +38,7 @@
   margin: 0 0.9em; /* Espaciado entre los botones */
   transition: transform 0.3s, color 0.3s;
   padding: 0.5% 2%;
+  width: 3.5%;
 }
 
 .container-navigation-button img {
