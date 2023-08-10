@@ -1,4 +1,4 @@
-import * as images from "./../../assets/image";
+import * as images from "./../../assets/image/index"; // Importa las imágenes que necesitas
 import * as icons from "./../../assets/icons";
 import "./SocialMedia.css";
 const SocialMedia = () => {
