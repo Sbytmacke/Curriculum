@@ -7,9 +7,11 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-#node_modules
+#node_modules (en caso de no querer todos los modulos para que no ocupen espacio en github)
 node_modules
-#dist (en caso de no querer el build de la web)
+#package-lock.json (no es necesario, con package.json es suficiente para instalar las dependencias)
+package-lock.json
+#dist (en caso de no querer el build de la web, aunque en mi caso es docs)
 dist-ssr
 *.local
 

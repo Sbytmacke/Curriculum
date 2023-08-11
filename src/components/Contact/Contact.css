@@ -80,6 +80,13 @@
   transform: translateX(-50%) scaleX(1);
   width: 80%; /* Ancho completo al pasar el ratón */
 }
+/* Large screen*/
+@media (min-width: 768px) {
+  #full-container-contact .title-clean {
+    margin-top: 2%;
+    margin-bottom: 5%;
+  }
+}
 /* Mobile screen */
 @media (max-width: 767px) {
   .container-contact {
