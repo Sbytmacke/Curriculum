@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap");
+
+.title-clean {
+  font-size: 2.75vw;
+  font-family: "Zilla Slab", serif;
+}
+
+/* Estilos base */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("./../assets/image/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /*height: 100vh;*/
+  font-family: "Russo One", sans-serif;
+  color: #a9a6a6;
+  font-size: 1.25vw;
+
+  width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+  color: #3399a8;
+  margin-bottom: 3%;
+}
+
+/* Mobile screen - Estilos base */
+@media (max-width: 767px) {
+  body {
+    font-size: 4vw;
+  }
+}
+
+/* Larger screen - Estilos base */
+@media (min-width: 768px) {
+}

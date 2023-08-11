@@ -1,0 +1,88 @@
+#full-container-contact {
+  background-color: #070b13;
+  border-radius: 1.5em;
+  margin-top: -2%;
+  margin-bottom: 7%;
+  padding-top: 1.5%;
+  padding-bottom: 4%;
+  width: 45%;
+  box-shadow: 0 0 3px #000000;
+}
+
+.line-contact {
+  margin-top: -2%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.container-contact {
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+}
+
+.list-links-rrss {
+  justify-content: center;
+  gap: 10%;
+  display: flex;
+  list-style: none;
+}
+
+.button-link-contact {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 3%;
+
+  position: relative;
+}
+
+.text-contact {
+  margin-bottom: 10%;
+
+  position: relative;
+  padding-bottom: 4px; /* Ajusta este valor para controlar la distancia entre el texto y el subrayado */
+  transition: color 0.3s, border-bottom-width 0.3s, transform 0.3s;
+}
+
+.icon-standar-contact {
+  width: 3.1em;
+  height: 3.1em;
+
+  transition: transform 0.4s; /* Duración de la animación de la imagen */
+}
+
+.button-link-contact:hover .icon-standar-contact {
+  transition: color 0.3s, border-bottom-width 0.3s, transform 0.3s;
+  transform: scale(1.05);
+  opacity: 0.6;
+}
+
+.button-link-contact:hover .text-contact {
+  color: #2797ad;
+  transform: scale(1.05);
+}
+
+.text-contact::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #2797ad; /* Color del subrayado */
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  transition: transform 0.4s, width 0.4s; /* Ajusta la duración de la animación */
+}
+
+.button-link-contact:hover .text-contact::before {
+  transform: translateX(-50%) scaleX(1);
+  width: 80%; /* Ancho completo al pasar el ratón */
+}
+/* Mobile screen */
+@media (max-width: 767px) {
+  .container-contact {
+    font-size: 90%;
+  }
+}

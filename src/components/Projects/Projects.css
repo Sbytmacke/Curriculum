@@ -1,0 +1,179 @@
+#container-projects {
+  overflow: auto;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  border: 1px solid transparent; /* Cambia a 'solid' para visualizar el borde */
+  background-color: #12141e;
+  height: 80vh;
+}
+.title-project {
+  font-size: 1.5em;
+  margin-bottom: 5%;
+  font-weight: 500;
+  color: #b7b7b7;
+}
+
+.container-project {
+  align-items: center;
+  padding: 10%;
+  opacity: 0.95;
+  height: 12.5em;
+}
+
+.image-project {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  border-radius: 1.5rem;
+}
+
+.link-project {
+  text-decoration: none;
+  position: relative;
+}
+
+.link-project .title-project {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 4px; /* Ajusta este valor para controlar la distancia entre el texto y el subrayado */
+  transition: color 0.3s, border-bottom-width 0.3s, transform 0.3s;
+}
+
+.link-project .image-project {
+  transition: transform 0.4s; /* Duración de la animación de la imagen */
+}
+
+.link-project:hover .image-project {
+  transition: color 0.3s, border-bottom-width 0.3s, transform 0.3s;
+  transform: scale(1.05);
+  opacity: 0.6;
+}
+
+.link-project:hover .title-project {
+  color: #2797ad;
+  transform: scale(1.05);
+}
+
+.link-project .title-project::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #2797ad; /* Color del subrayado */
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  transition: transform 0.4s, width 0.4s; /* Ajusta la duración de la animación */
+}
+
+.link-project:hover .title-project::before {
+  transform: translateX(-50%) scaleX(1);
+  width: 100%; /* Ancho completo al pasar el ratón */
+}
+
+/* Large-screen*/
+@media (min-width: 768px) {
+  #full-container-project {
+    margin-bottom: 4%;
+    background-color: #070b13;
+    border-radius: 1em;
+    padding-top: 1.5%;
+    padding: 1%;
+    box-shadow: 0 0 4px #000000;
+  }
+
+  #container-projects {
+    overflow: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 19em; /* Tamaño fijo para todas las filas */
+    border: 1px solid transparent; /* Cambia a 'solid' para visualizar el borde */
+    background-color: #12141e;
+    height: 80vh;
+  }
+  .title-project {
+    font-size: 1.5em;
+    margin-bottom: 5%;
+    font-weight: 500;
+    color: #b7b7b7;
+  }
+
+  .container-project {
+    align-items: center;
+    padding: 10%;
+    opacity: 0.95;
+    height: 12.5em;
+  }
+
+  .image-project {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    border-radius: 1.5rem;
+  }
+
+  .link-project {
+    text-decoration: none;
+    position: relative;
+  }
+
+  .link-project .title-project {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 4px; /* Ajusta este valor para controlar la distancia entre el texto y el subrayado */
+    transition: color 0.3s, border-bottom-width 0.3s, transform 0.3s;
+  }
+
+  .link-project .image-project {
+    transition: transform 0.4s; /* Duración de la animación de la imagen */
+  }
+
+  .link-project:hover .image-project {
+    transition: color 0.3s, border-bottom-width 0.3s, transform 0.3s;
+    transform: scale(1.05);
+    opacity: 0.6;
+  }
+
+  .link-project:hover .title-project {
+    color: #2797ad;
+    transform: scale(1.05);
+  }
+
+  .link-project .title-project::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 2px;
+    background-color: #2797ad; /* Color del subrayado */
+    transform: translateX(-50%) scaleX(0);
+    transform-origin: center;
+    transition: transform 0.4s, width 0.4s; /* Ajusta la duración de la animación */
+  }
+
+  .link-project:hover .title-project::before {
+    transform: translateX(-50%) scaleX(1);
+    width: 100%; /* Ancho completo al pasar el ratón */
+  }
+}
+
+/*Mobile-screen*/
+@media (max-width: 767px) {
+  #full-container-project {
+    margin-bottom: 4%;
+    background-color: #070b13;
+    border-radius: 1em;
+    padding-top: 1.5%;
+    padding: 1.5%;
+    box-shadow: 0 0 4px #000000;
+    width: 41%;
+    font-size: 80%;
+  }
+  .container-project {
+    margin-top: -3.5%;
+  }
+}

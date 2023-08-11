@@ -1,0 +1,98 @@
+.container-home {
+  background-color: #070b13;
+  border-radius: 1.5em;
+  height: min-content;
+  width: 67%;
+  box-shadow: 0 0 4px #000000;
+}
+
+.container-about-me {
+  text-align: center;
+  display: inline;
+}
+
+.container-languages {
+  display: flex;
+  justify-content: center;
+  margin: 1.5%;
+}
+
+.container-languages .text-white-small-clean {
+  margin-left: 1.5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  font-size: 105%;
+}
+
+.container-knowledges {
+  display: grid;
+  grid-template-columns: repeat(2, 0.35fr); /* Dos columnas de tamaño igual */
+  grid-template-rows: 0.25fr 0.25fr;
+  text-align: center;
+  width: 80%;
+  justify-content: center; /* Centra el grid horizontalmente */
+  margin: 0 auto; /* Centra el contenedor horitzontalmente */
+}
+
+.title-clean {
+  margin-bottom: 5%;
+  margin-top: 4%;
+  grid-column: span 2; /* Hace que el elemento ocupe dos columnas */
+}
+
+.line-knowledge {
+  margin-top: 2%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.container-knowledge {
+  padding-bottom: 13%;
+  margin-right: 4%;
+}
+
+.container-knowledges .text-white-small {
+  margin-bottom: 5%;
+}
+
+.icon-knowledge {
+  width: 20%;
+  height: 20%;
+  margin: 2%;
+}
+
+.text-about-me {
+  margin: 0.5%;
+}
+
+/*Large Screen*/
+@media (min-width: 768px) {
+}
+
+/* Mobile screen */
+@media (max-width: 767px) {
+  .container-home {
+    margin-bottom: 35%;
+    margin-top: 3%;
+    width: 90%;
+  }
+
+  .text-about-me {
+    font-size: 90%;
+    margin-bottom: 1%;
+  }
+
+  .container-languages {
+    font-size: 80%;
+    margin-bottom: 5%;
+    margin-top: 3%;
+  }
+
+  .container-knowledges {
+    font-size: 85%;
+  }
+
+  .container-knowledges {
+    width: 100%;
+  }
+}

@@ -1,0 +1,97 @@
+.container-navigation {
+  display: flex;
+  justify-content: center;
+  background-color: #070b13;
+  position: sticky;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  margin-bottom: 2%;
+  border-bottom: 0.5px solid #868484;
+  border-top: 0.5px solid #868484;
+  padding-top: 0.5em;
+  padding-bottom: 0.35em;
+}
+
+/* Resto de tus estilos */
+
+.container-navigation-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  margin: 0 0.9em; /* Espaciado entre los botones */
+  transition: transform 0.3s, color 0.3s;
+  padding: 0.5% 2%;
+  width: 2.25%;
+}
+
+.container-navigation-button img {
+  width: 100%;
+  height: 100%;
+}
+
+.container-navigation-button p {
+  margin-top: 0.5em;
+  font-size: 0.875em;
+}
+
+.container-navigation-button:hover {
+  color: #2797ad;
+  transform: translateY(-0.2em);
+  background-color: #2797ad2c;
+  border-radius: 1em;
+}
+
+.active {
+  color: #2797ad;
+  transform: translateY(-0.2em);
+  background-color: #2797ad2c;
+  border-radius: 1em;
+}
+
+/* Larger screen */
+@media (min-width: 768px) {
+  .container-navigation-button::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #55acbe;
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+  }
+
+  .container-navigation-button:hover::before {
+    transform: scaleX(0.5);
+    transform-origin: unset;
+  }
+}
+
+/* Mobile screen */
+@media (max-width: 767px) {
+  .container-navigation-button {
+    width: 10%;
+    font-size: 80%;
+  }
+
+  .container-navigation-button img {
+    width: 90%;
+  }
+
+  .container-navigation-button.active::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #55acbe;
+    transform: scaleX(0.5);
+    transition: transform 0.3s ease;
+  }
+}
