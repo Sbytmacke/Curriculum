@@ -7,14 +7,12 @@ function Home() {
     <>
       <section className="container-home" id="container-home">
         <div className="container-about-me">
-          <h3 className="title-clean">You will find 🙂 </h3>
+          <h3 className="title-clean">You will find </h3>
           <p className="text-about-me">
-            <span className="text-highlight">Perseverance</span>,
-            <span className="text-highlight"> patience</span>, and mainly good
-            vibes :)
+            Optimism🙂, Perseverance🪨, Patience🌸
           </p>
           <p className="text-about-me">
-            Loving the backend and how huge it can be!
+            Loving backend and how huge it can be!
           </p>
           <div className="container-languages">
             <p className="text-white-small-clean">🇪🇸 Native</p>

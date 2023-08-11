@@ -67,6 +67,9 @@
 
 /*Large Screen*/
 @media (min-width: 768px) {
+  .title-clean {
+    margin-bottom: 2%;
+  }
 }
 
 /* Mobile screen */

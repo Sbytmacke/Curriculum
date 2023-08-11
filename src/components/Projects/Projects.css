@@ -1,16 +1,21 @@
+#full-container-project .title-clean {
+  margin-top: 1%;
+}
+
 #container-projects {
   overflow: auto;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   border: 1px solid transparent; /* Cambia a 'solid' para visualizar el borde */
   background-color: #12141e;
-  height: 80vh;
+  height: 85vh;
 }
 .title-project {
   font-size: 1.5em;
   margin-bottom: 5%;
   font-weight: 500;
   color: #b7b7b7;
+  padding-bottom: 5%;
 }
 
 .container-project {
@@ -91,7 +96,6 @@
     grid-auto-rows: 19em; /* Tamaño fijo para todas las filas */
     border: 1px solid transparent; /* Cambia a 'solid' para visualizar el borde */
     background-color: #12141e;
-    height: 80vh;
   }
   .title-project {
     font-size: 1.5em;
@@ -175,5 +179,9 @@
   }
   .container-project {
     margin-top: -3.5%;
+    padding-bottom: 21%;
+  }
+  .title-project {
+    margin-bottom: 3%;
   }
 }
