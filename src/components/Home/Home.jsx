@@ -7,16 +7,14 @@ function Home() {
     <>
       <section className="container-home" id="container-home">
         <div className="container-about-me">
-          <h1 id="navigate-to-home" className="title-about-me">
-            Hi 🙂, I`m Angel
-          </h1>
+          <h3 className="title-clean">You will find 🙂 </h3>
           <p className="text-about-me">
             <span className="text-highlight">Perseverance</span>,
-            <span className="text-highlight"> patience</span>, and mainly a good
+            <span className="text-highlight"> patience</span>, and mainly good
             vibes :)
           </p>
           <p className="text-about-me">
-            Loving the world of the backend and how huge it can be!
+            Loving the backend and how huge it can be!
           </p>
           <div className="container-languages">
             <p className="text-white-small-clean">🇪🇸 Native</p>
@@ -27,10 +25,10 @@ function Home() {
         </div>
 
         <div className="container-knowledges">
-          <h1 className="title-knowledges">
+          <h3 className="title-clean">
             Knowledges
-            <hr className="line-knowledge" />
-          </h1>
+            {/*<hr className="line-knowledge" />*/}
+          </h3>
           <div className="container-knowledge">
             <p className="text-white-small">Programming</p>
             <div className="icons-knowledge">

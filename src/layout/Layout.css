@@ -7,6 +7,7 @@
 .top-content {
   display: flex;
   width: 100%;
+  margin-bottom: 3%;
 }
 
 .bottom-content {
@@ -17,4 +18,27 @@
   align-items: center;
   width: 80%;
   margin-top: -25.5%;
+}
+
+/* Larger screen */
+@media (min-width: 768px) {
+}
+
+/* Mobile screen */
+@media (max-width: 767px) {
+  .title-clean {
+    font-size: 200%;
+  }
+
+  .top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .bottom-content {
+    margin-top: -29%;
+    width: 170%;
+  }
 }

@@ -20,6 +20,8 @@ body {
   font-family: "Russo One", sans-serif;
   color: #a9a6a6;
   font-size: 1.25vw;
+
+  width: 100%;
 }
 
 h1,
@@ -33,16 +35,10 @@ h3 {
 /* Mobile screen - Estilos base */
 @media (max-width: 767px) {
   body {
-    display: grid;
-    place-items: center;
-    margin-bottom: 6%;
+    font-size: 4vw;
   }
 }
 
 /* Larger screen - Estilos base */
 @media (min-width: 768px) {
-  body {
-    width: 100vw;
-    /*height: 100vh; /* Si lo ponemos el fondo no rellenará toda la pagina*/
-  }
 }

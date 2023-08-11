@@ -1,37 +1,54 @@
 import "./Contact.css";
+import * as icons from "./../../assets/icons";
 
 function Contact() {
   return (
     <div id="full-container-contact">
       <span id="navigate-to-contact"></span>
-      <h1>Contact</h1>
+      <h3 className="title-clean">Contact</h3>
       <hr className="line-contact" />
       <section className="container-contact">
-        <div className="contact-item">
-          <a
-            href="https://github.com/Sbytmacke"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="link-contact"
-          >
-            GitHub
-          </a>
-        </div>
-        <div className="contact-item">
-          <a
-            href="https://www.linkedin.com/in/angel-chivite-14b0a0162/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="link-contact"
-          >
-            LinkedIn
-          </a>
-        </div>
-        <div className="contact-item">
-          <a href="mailto:sbytmacke@gmail.com" className="link-contact">
-            Correo Electrónico
-          </a>
-        </div>
+        <ul className="list-links-rrss">
+          <li>
+            <a
+              className="button-link-contact"
+              href="https://github.com/Sbytmacke"
+            >
+              <p className="text-contact">Github</p>
+              <img
+                className="icon-standar-contact"
+                src={icons.whiteGithub}
+                alt="github"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              className="button-link-contact"
+              href="https://www.linkedin.com/in/angel-chivite-14b0a0162/"
+            >
+              <p className="text-contact">Linkedin</p>
+              <img
+                className="icon-standar-contact"
+                src={icons.whiteLinkedin}
+                alt="linkedin"
+              />
+            </a>
+          </li>
+          <li>
+            <a
+              className="button-link-contact"
+              href="mailto:sbytmacke@gmail.com"
+            >
+              <p className="text-contact">Email</p>
+              <img
+                className="icon-standar-contact"
+                src={icons.dot}
+                alt="linkedin"
+              />
+            </a>
+          </li>
+        </ul>
       </section>
     </div>
   );

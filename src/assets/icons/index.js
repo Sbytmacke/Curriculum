@@ -20,12 +20,15 @@ import react from "./technologies/react.png";
 import whiteGithub from "./white/github.png";
 import whiteLinkedin from "./white/linkedin.png";
 import whiteEmail from "./white/email.png";
-
+import emailSecondary from "./emailSecondary.png";
+import dot from "./dot.png";
 export {
   backend,
   contact,
   darkSun,
+  dot,
   email,
+  emailSecondary,
   whiteEmail,
   github,
   whiteGithub,
