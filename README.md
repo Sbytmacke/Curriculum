@@ -1,6 +1,8 @@
 # Portafolio CV
 
-Primer proyecto con JavaScript, React y Vite
+Primer proyecto con JavaScript, React y Vite.
+
+El objetivo es tener un poco de contacto en front-end y tener una web personal.
 
 # Obtención del proyecto:
 
