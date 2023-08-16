@@ -7,6 +7,7 @@ import cieloEstrellado from "./cielo-estrellado.jpg";
 import comingSoon from "./coming-soon.webp";
 import referenceCV from "./reference-cv.png";
 import webITV from "./WebITV.png";
+import deliverySync from "./deliverySync.jpeg";
 
 export {
   angelChibi,
@@ -18,4 +19,5 @@ export {
   comingSoon,
   referenceCV,
   webITV,
+  deliverySync,
 };

@@ -5,20 +5,20 @@ const projectsList = [
   {
     title: "Web ITV",
     image: images.webITV,
-    description: "Descripción del proyecto 1",
+    description: "Schema web only using html, css and javascript",
     link: "https://github.com/Sbytmacke/ProyectoFinalITV",
   },
   {
     title: "App Desktop ITV",
     image: images.appITV,
-    description: "Descripción del proyecto 4",
+    description: "App to administrate all resources about an ITV",
     link: "https://github.com/Sbytmacke/ProyectoFinalITV",
   },
   {
-    title: "Coming Soon...",
-    image: images.comingSoon,
-    description: "Descripción del proyecto 2",
-    link: "",
+    title: "Delivery Sync",
+    image: images.deliverySync,
+    description: "Web or App (idk) to central location about deliveries",
+    link: "https://github.com/Sbytmacke/delivery-sync",
   },
   {
     title: "Coming Soon...",
