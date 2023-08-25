@@ -49,7 +49,11 @@ const SocialMedia = () => {
         </a>
 
         <hr id="limit-rrss" />
-        <a id="button-download-cv" href="assets/pdf/prueba.pdf" download>
+        <a
+          id="button-download-cv"
+          href="./../../assets/pdf/chiviteAngelCV.pdf"
+          download
+        >
           Download CV
         </a>
       </div>
