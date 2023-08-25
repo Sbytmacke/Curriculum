@@ -53,7 +53,7 @@ const SocialMedia = () => {
         <hr id="limit-rrss" />
         <a
           id="button-download-cv"
-          href={pdfs.chiviteAngelCV}
+          href={pdfs.ChiviteAngelCV}
           download="ChiviteAngelCV"
         >
           Download CV
