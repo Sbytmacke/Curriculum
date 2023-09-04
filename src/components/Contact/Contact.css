@@ -89,6 +89,12 @@
 }
 /* Mobile screen */
 @media (max-width: 767px) {
+  #full-container-contact {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    width: 72.5%;
+  }
+
   .container-contact {
     font-size: 90%;
   }
