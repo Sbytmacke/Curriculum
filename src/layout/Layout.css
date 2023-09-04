@@ -16,12 +16,14 @@
   text-align: center;
   justify-content: center;
   align-items: center;
-  width: 80%;
   margin-top: -25.5%;
 }
 
 /* Larger screen */
 @media (min-width: 768px) {
+  .bottom-content {
+    width: 80%;
+  }
 }
 
 /* Mobile screen */
@@ -39,6 +41,5 @@
 
   .bottom-content {
     margin-top: -29%;
-    width: 170%;
   }
 }

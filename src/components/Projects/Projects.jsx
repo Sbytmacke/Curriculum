@@ -38,6 +38,12 @@ const projectsList = [
     description: "Descripción del proyecto 2",
     link: "",
   },
+  {
+    title: "Coming Soon...",
+    image: images.comingSoon,
+    description: "Descripción del proyecto 2",
+    link: "",
+  },
 ];
 
 function Projects() {
