@@ -3,16 +3,16 @@ import * as images from "./../../assets/image/index"; // Importa las imágenes q
 
 const projectsList = [
   {
-    title: "Web ITV",
-    image: images.webITV,
-    description: "Schema web only using html, css and javascript",
-    link: "https://github.com/Sbytmacke/ProyectoFinalITV",
-  },
-  {
-    title: "App Desktop ITV",
+    title: "ITV Desktop App",
     image: images.appITV,
     description: "App to administrate all resources about an ITV",
     link: "https://github.com/Sbytmacke/ProyectoFinalITV",
+  },
+  {
+    title: "Wewiza Android App",
+    image: images.appWewiza,
+    description: "Android app to compare prices (TFG)",
+    link: "https://github.com/Sbytmacke/Wewiza",
   },
   {
     title: "Delivery Sync",
@@ -21,10 +21,10 @@ const projectsList = [
     link: "https://github.com/Sbytmacke/delivery-sync",
   },
   {
-    title: "Coming Soon...",
-    image: images.comingSoon,
-    description: "Descripción del proyecto 2",
-    link: "",
+    title: "ITV Web",
+    image: images.webITV,
+    description: "Schema web only using html, css and javascript",
+    link: "https://github.com/Sbytmacke/ProyectoFinalITV",
   },
   {
     title: "Coming Soon...",
