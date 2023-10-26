@@ -22,7 +22,22 @@ import whiteLinkedin from "./white/linkedin.png";
 import whiteEmail from "./white/email.png";
 import emailSecondary from "./emailSecondary.png";
 import dot from "./dot.png";
+import dot_net from "./technologies/dot_net.svg";
+import c_sharp from "./technologies/c_sharp.svg";
+import mongodb from "./technologies/mongodb.svg";
+import firebase from "./technologies/firebase.svg";
+import hibernate from "./technologies/hibernate.svg";
+import spring from "./technologies/spring.svg";
+import android from "./technologies/android.svg";
+
 export {
+  android,
+  dot_net,
+  c_sharp,
+  mongodb,
+  firebase,
+  hibernate,
+  spring,
   backend,
   contact,
   darkSun,

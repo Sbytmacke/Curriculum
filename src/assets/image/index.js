@@ -8,6 +8,7 @@ import comingSoon from "./coming-soon.webp";
 import referenceCV from "./reference-cv.png";
 import webITV from "./WebITV.png";
 import deliverySync from "./deliverySync.jpeg";
+import appWewiza from "./appWewiza.jpg";
 
 export {
   angelChibi,
@@ -20,4 +21,5 @@ export {
   referenceCV,
   webITV,
   deliverySync,
+  appWewiza,
 };

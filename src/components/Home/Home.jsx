@@ -33,6 +33,11 @@ function Home() {
               <img className="icon-knowledge" src={icons.java} alt="java" />
               <img className="icon-knowledge" src={icons.kotlin} alt="kotlin" />
               <img className="icon-knowledge" src={icons.js} alt="js" />
+              <img
+                className="icon-knowledge"
+                src={icons.c_sharp}
+                alt="c_sharp"
+              />
             </div>
           </div>
           <div className="container-knowledge">
@@ -44,6 +49,11 @@ function Home() {
                 alt="mariadb"
               />
               <img className="icon-knowledge" src={icons.mysql} alt="mysql" />
+              <img
+                className="icon-knowledge"
+                src={icons.mongodb}
+                alt="mongodb"
+              />
             </div>
           </div>
           <div className="container-knowledge">
@@ -51,12 +61,33 @@ function Home() {
             <div className="icons-knowledge">
               <img className="icon-knowledge" src={icons.git} alt="git" />
               <img className="icon-knowledge" src={icons.docker} alt="docker" />
+              <img
+                className="icon-knowledge"
+                src={icons.android}
+                alt="android"
+              />
+              <img
+                className="icon-knowledge"
+                src={icons.firebase}
+                alt="firebase"
+              />
+              <img
+                className="icon-knowledge"
+                src={icons.dot_net}
+                alt="dot_net"
+              />
             </div>
           </div>
           <div className="container-knowledge">
             <p className="text-white-small">Frameworks</p>
             <div className="icons-knowledge">
               <img className="icon-knowledge" src={icons.react} alt="react" />
+              <img className="icon-knowledge" src={icons.spring} alt="spring" />
+              <img
+                className="icon-knowledge"
+                src={icons.hibernate}
+                alt="hibernate"
+              />
             </div>
           </div>
         </div>
