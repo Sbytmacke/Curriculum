@@ -1,6 +1,6 @@
 import * as images from "./../../assets/image/index"; // Importa las imágenes que necesitas
 import * as icons from "./../../assets/icons";
-import * as pdfs from "./../../assets/pdf";
+import pdf from "./../../assets/pdf/chiviteAngelCV.pdf";
 
 import "./SocialMedia.css";
 const SocialMedia = () => {
@@ -51,11 +51,7 @@ const SocialMedia = () => {
         </a>
 
         <hr id="limit-rrss" />
-        <a
-          id="button-download-cv"
-          href={pdfs.ChiviteAngelCV}
-          download="ChiviteAngelCV"
-        >
+        <a id="button-download-cv" href={pdf} download="ChiviteAngelCV">
           Download CV
         </a>
       </div>
