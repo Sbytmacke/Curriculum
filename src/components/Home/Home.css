@@ -55,6 +55,14 @@
   margin-bottom: 5%;
 }
 
+.icons-knowledge {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
 .icon-knowledge {
   width: 20%;
   height: 20%;
