@@ -23,14 +23,20 @@ import whiteEmail from "./white/email.png";
 import emailSecondary from "./emailSecondary.png";
 import dot from "./dot.png";
 import dot_net from "./technologies/dot_net.svg";
-import c_sharp from "./technologies/c_sharp.png";
+import c_sharp from "./technologies/c-sharp.png";
 import mongodb from "./technologies/mongodb.svg";
 import firebase from "./technologies/firebase.svg";
 import hibernate from "./technologies/hibernate.svg";
 import spring from "./technologies/spring.svg";
 import android from "./technologies/android.svg";
+import postgresql from "./technologies/postgresql.svg";
+import python from "./technologies/python.svg";
+import rstudio from "./technologies/r.png";
 
 export {
+  python,
+  rstudio,
+  postgresql,
   android,
   dot_net,
   c_sharp,
