@@ -21,38 +21,27 @@ function Home() {
             <p className="text-white-small-clean">🇩🇪 Basic</p>
           </div>
         </div>
-
         <div className="container-knowledges">
           <h3 className="title-clean">
             Knowledges
             {/*<hr className="line-knowledge" />*/}
           </h3>
           <div className="container-knowledge">
-            <p className="text-white-small">Programming</p>
+            <p className="text-white-small">Languages</p>
             <div className="icons-knowledge">
               <img className="icon-knowledge" src={icons.java} alt="java" />
               <img className="icon-knowledge" src={icons.kotlin} alt="kotlin" />
-              <img className="icon-knowledge" src={icons.js} alt="js" />
               <img
                 className="icon-knowledge"
                 src={icons.c_sharp}
                 alt="c_sharp"
               />
-            </div>
-          </div>
-          <div className="container-knowledge">
-            <p className="text-white-small">Data Base</p>
-            <div className="icons-knowledge">
+              <img className="icon-knowledge" src={icons.js} alt="js" />
+              <img className="icon-knowledge" src={icons.python} alt="python" />
               <img
                 className="icon-knowledge"
-                src={icons.mariadb}
-                alt="mariadb"
-              />
-              <img className="icon-knowledge" src={icons.mysql} alt="mysql" />
-              <img
-                className="icon-knowledge"
-                src={icons.mongodb}
-                alt="mongodb"
+                src={icons.rstudio}
+                alt="rstudio"
               />
             </div>
           </div>
@@ -87,6 +76,27 @@ function Home() {
                 className="icon-knowledge"
                 src={icons.hibernate}
                 alt="hibernate"
+              />
+            </div>
+          </div>
+          <div className="container-knowledge">
+            <p className="text-white-small">Data Base</p>
+            <div className="icons-knowledge">
+              <img
+                className="icon-knowledge"
+                src={icons.mariadb}
+                alt="mariadb"
+              />
+              <img className="icon-knowledge" src={icons.mysql} alt="mysql" />
+              <img
+                className="icon-knowledge"
+                src={icons.postgresql}
+                alt="postgresql"
+              />
+              <img
+                className="icon-knowledge"
+                src={icons.mongodb}
+                alt="mongodb"
               />
             </div>
           </div>

@@ -27,11 +27,12 @@
 .container-knowledges {
   display: grid;
   grid-template-columns: repeat(2, 0.35fr); /* Dos columnas de tamaño igual */
-  grid-template-rows: 0.25fr 0.25fr;
+  grid-template-rows: 0.5fr 0.5fr;
   text-align: center;
   width: 80%;
   justify-content: center; /* Centra el grid horizontalmente */
   margin: 0 auto; /* Centra el contenedor horitzontalmente */
+  column-gap: 5%; /* Espacio entre las columnas */
 }
 
 .title-clean {
