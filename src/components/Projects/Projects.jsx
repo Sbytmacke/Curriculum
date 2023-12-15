@@ -3,60 +3,39 @@ import * as images from "./../../assets/image/index"; // Importa las imágenes q
 
 const projectsList = [
   {
-    title: "ITV Desktop App",
-    image: images.appITV,
-    description: "App to administrate all resources about an ITV",
-    link: "https://github.com/Sbytmacke/ProyectoFinalITV",
+    title: "Token Helper",
+    image: images.appTokenHelper,
+    description: "Desktop App to save your bets",
+    link: "https://github.com/Sbytmacke/TokenHelper",
+    technologies: ["java", "mongodb"],
+    tags: ["Java", "MongoDB"],
   },
   {
-    title: "Wewiza Android App",
+    title: "Wewiza",
     image: images.appWewiza,
     description: "Android app to compare prices (TFG)",
     link: "https://github.com/Sbytmacke/Wewiza",
+    technologies: ["kotlin", "mongodb", "androidstudio"],
+    tags: ["Kotlin", "MongoDB", "Android"],
   },
   {
-    title: "Delivery Sync",
-    image: images.deliverySync,
-    description: "Web or App (idk) to central location about deliveries",
-    link: "https://github.com/Sbytmacke/delivery-sync",
-  },
-  {
-    title: "ITV Web",
-    image: images.webITV,
-    description: "Schema web only using html, css and javascript",
+    title: "ITV Dam",
+    image: images.appITV,
+    description: "App to administrate all resources about an ITV",
     link: "https://github.com/Sbytmacke/ProyectoFinalITV",
-  },
-  {
-    title: "Coming Soon...",
-    image: images.comingSoon,
-    description: "Descripción del proyecto 2",
-    link: "",
-  },
-  {
-    title: "Coming Soon...",
-    image: images.comingSoon,
-    description: "Descripción del proyecto 2",
-    link: "",
-  },
-  {
-    title: "Coming Soon...",
-    image: images.comingSoon,
-    description: "Descripción del proyecto 2",
-    link: "",
-  },
-  {
-    title: "Coming Soon...",
-    image: images.comingSoon,
-    description: "Descripción del proyecto 2",
-    link: "",
-  },
-  {
-    title: "Coming Soon...",
-    image: images.comingSoon,
-    description: "Descripción del proyecto 2",
-    link: "",
+    technologies: ["kotlin", "mysql"],
+    tags: ["Kotlin", "MySQL"],
   },
 ];
+/* <img src="https://skillicons.dev/icons?i=kotlin,ktor,androidstudio,firebase,java,spring,cs,dotnet" />*/
+/*
+{
+    title: "Coming Soon...",
+    image: images.comingSoon,
+    description: "Descripción del proyecto 2",
+    link: "",
+  },
+*/
 
 function Projects() {
   return (
@@ -74,6 +53,23 @@ function Projects() {
                 src={project.image}
                 alt={`project-${index}`}
               />
+              <div className="tech-list">
+                {project.technologies.map((technology, techIndex) => (
+                  <img
+                    key={techIndex}
+                    className="tech"
+                    src={`https://skillicons.dev/icons?i=${technology}`}
+                    alt={technology}
+                  />
+                ))}
+              </div>
+              <div className="tag-list-names">
+                {project.tags.map((tag, tagIndex) => (
+                  <span key={tagIndex} className="tag-name">
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </a>
           </div>
         ))}
