@@ -5,6 +5,7 @@
 #container-projects {
   border: 1px solid transparent; /* Cambia a 'solid' para visualizar el borde */
   background-color: #12141e;
+  padding: 2%;
 }
 
 .title-project {
@@ -38,7 +39,7 @@
 .link-project .title-project {
   position: relative;
   display: inline-block;
-  padding-bottom: 4px; /* Ajusta este valor para controlar la distancia entre el texto y el subrayado */
+  padding-bottom: 4px;
   transition: color 0.3s, border-bottom-width 0.3s, transform 0.3s;
 }
 
@@ -75,6 +76,48 @@
   width: 100%; /* Ancho completo al pasar el ratón */
 }
 
+.tech-list {
+  display: none;
+  position: absolute;
+  top: calc(650%);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px;
+  background-color: #464646;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  margin-top: -8px;
+}
+
+.tech {
+  display: inline-block;
+  margin: 4px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.link-project:hover .tech-list {
+  display: flex;
+}
+
+.tag-list-names {
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 5%;
+}
+
+.tag-name {
+  padding: 4px 8px;
+  background-color: #464646;
+  color: #fff;
+  border-radius: 4px;
+  margin-right: 4px;
+  margin-bottom: 4px;
+}
+
 /* Large-screen*/
 @media (min-width: 768px) {
   #full-container-project {
@@ -93,8 +136,9 @@
     grid-auto-rows: 19em; /* Tamaño fijo para todas las filas */
     border: 1px solid transparent; /* Cambia a 'solid' para visualizar el borde */
     background-color: #12141e;
-    height: 38em;
+    height: 21em; /*TODO: Subir en caso de querer mostrar más proyectos*/
   }
+
   .title-project {
     font-size: 1.5em;
     margin-bottom: 5%;
