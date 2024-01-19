@@ -51,7 +51,7 @@ const SocialMedia = () => {
         </a>
 
         <hr id="limit-rrss" />
-        <a id="button-download-cv" href={pdf} download="ChiviteAngelCV">
+        <a id="button-download-cv" href={pdf} download="chiviteAngelCV">
           Download CV
         </a>
       </div>

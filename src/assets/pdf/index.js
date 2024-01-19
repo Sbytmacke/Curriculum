@@ -1,3 +1,3 @@
-import ChiviteAngelCV from "./chiviteAngelCV.pdf";
+import chiviteAngelCV from "./chiviteAngelCV.pdf";
 
-export { ChiviteAngelCV };
+export { chiviteAngelCV };
