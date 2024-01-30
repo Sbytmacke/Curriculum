@@ -1,5 +1,5 @@
 import "./Projects.css";
-import * as images from "./../../assets/image/index"; // Importa las imágenes que necesitas
+import * as images from "./../../assets/image/index";
 
 const projectsList = [
   {
@@ -11,13 +11,29 @@ const projectsList = [
     tags: ["Java", "MongoDB"],
   },
   {
-    title: "Wewiza",
-    image: images.appWewiza,
+    title: "Aircraft Militar Map",
+    image: images.workInProgressAircraft,
+    description: "App to locate militar aircrafts in real time",
+    link: "https://github.com/Sbytmacke/AircraftMilitarMap",
+    technologies: ["java", "spring", "hibernate"],
+    tags: ["Java", "Spring", "Hibernate"],
+  },
+  {
+    title: "Wewiza (TFG)",
+    image: images.workInProgressWewiza,
     description: "Android app to compare prices (TFG)",
     link: "https://github.com/Sbytmacke/Wewiza",
-    technologies: ["kotlin", "mongodb", "androidstudio"],
-    tags: ["Kotlin", "MongoDB", "Android"],
+    technologies: ["kotlin", "androidstudio", "firebase"],
+    tags: ["Kotlin", "Android", "Firebase"],
   },
+  /*{
+    title: "Human Resources App",
+    image: images.workInProgress,
+    description: "App to administrate departments and employees applying MVVM",
+    link: "https://github.com/Sbytmacke/InterfacesDotNetT",
+    technologies: ["C#", ".NET", "WPF"],
+    tags: ["cs", "dotnet"],
+  },*/
   {
     title: "ITV Dam",
     image: images.appITV,

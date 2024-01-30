@@ -21,6 +21,7 @@
   padding: 10%;
   opacity: 0.95;
   height: 12.5em;
+  margin-bottom: 16%;
 }
 
 .image-project {
@@ -103,8 +104,8 @@
 }
 
 .tag-list-names {
-  align-items: center;
-  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
   gap: 4px;
   margin-top: 5%;
 }
