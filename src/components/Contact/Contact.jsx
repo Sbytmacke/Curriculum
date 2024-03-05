@@ -38,7 +38,7 @@ function Contact() {
           <li>
             <a
               className="button-link-contact"
-              href="mailto:sbytmacke@gmail.com"
+              href="mailto:ag.chivite@gmail.com"
             >
               <p className="text-contact">Email</p>
               <img

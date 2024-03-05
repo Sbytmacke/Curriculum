@@ -39,14 +39,14 @@ const SocialMedia = () => {
           </li>
         </ul>
 
-        <a href="mailto:tucorreo@example.com" id="container-email">
+        <a href="mailto:ag.chivite@gmail.com" id="container-email">
           <img
             id="icon-email"
             src={icons.whiteEmail}
-            alt="sbytmacke@gmail.com"
+            alt="ag.chivite@gmail.com"
           />
           <p id="text-email" className="">
-            sbytmacke@gmail.com
+            ag.chivite@gmail.com
           </p>
         </a>
 
