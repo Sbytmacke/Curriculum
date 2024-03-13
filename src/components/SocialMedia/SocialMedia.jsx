@@ -17,7 +17,7 @@ const SocialMedia = () => {
 
         <ul id="container-links-rrss">
           <li>
-            <a className="button-link-rrss" href="https://github.com/Sbytmacke">
+            <a className="button-link-rrss" href="https://github.com/agchivite">
               <img
                 className="icon-standar"
                 src={icons.whiteGithub}

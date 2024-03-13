@@ -12,7 +12,7 @@ function Contact() {
           <li>
             <a
               className="button-link-contact"
-              href="https://github.com/Sbytmacke"
+              href="https://github.com/agchivite"
             >
               <p className="text-contact">Github</p>
               <img
