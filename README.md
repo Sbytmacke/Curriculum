@@ -18,6 +18,9 @@ Ejecuta -> `npm install` en la carpeta raíz del proyecto para descargar todas l
 
 La producción con `npm run build` está personalizado con "VITE" para que el "build" se cree en la carpeta "docs" ya que "github-pages" lee a partir de ahí para hacer "deploy".
 
+-   Eliminar carpeta "docs" si existe.
+-   Ejecutar `npm run build` para crear la carpeta "docs".
+
 # Bugs/Pendiente
 
-- Barra de navegación en la versión de móvil no detecta el componente para hacer "hover" sobre la "navBar"
+-   Barra de navegación en la versión de móvil no detecta el componente para hacer "hover" sobre la "navBar"
